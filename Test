@@ -1,0 +1,5 @@
+String location = "울산광역시 남구 삼산동";
+Float[] coords = CommonUtil.performGeoCoding(location);
+System.out.println(location+":"+coords[0]+","+coords[1]);
+
+결과? 
